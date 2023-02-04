@@ -1,6 +1,6 @@
 provider "aws" {
   profile = "myaws"
-  region = "us-east-1"
+  region  = "us-east-1"
 }
 
 
@@ -13,4 +13,3 @@ resource "aws_s3_bucket" "b" {
     Environment = "Dev"
   }
 }
-
